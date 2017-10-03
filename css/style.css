@@ -1,0 +1,246 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.hero {
+  background-image: url('../images/hero.png');
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  margin-bottom: -55px;
+  padding-top: 30px;
+}
+
+.nav-item {
+  font-size: 18pt;
+  padding-right: 20px;
+  color: #00e4b5;
+}
+
+.nav-social-media {
+  text-align: right;
+}
+
+.nav-social-media .nav-item {
+  margin-left: 20px;
+  text-align: right;
+  display: inline;
+}
+
+.nav-item:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-social-media .nav-item {
+  /*float: right;*/
+  font-size: 18pt;
+}
+
+.hero-text h1 {
+  margin-bottom: -15px;
+  padding-bottom: -15px;
+  font-size: 66px;
+}
+
+.download-app {
+  width: 40%;
+  margin-top: 65px;
+  margin-right: 15px;
+}
+
+.left-hero {
+  margin-top: 30px;
+}
+
+.sub-hero {
+  padding: 35px 0;
+  margin: 0;
+  background-color: #00e4b5;
+}
+
+.sub-hero-header {
+  font-size: 30px;
+  color: #fff;
+}
+
+.sub-hero-text {
+  font-size: 20px;
+  color: #fff;
+}
+
+.iphone {
+  width: 65%;
+  position: absolute;
+  float: right;
+  text-align: right;
+  margin-top: -130px;
+}
+
+@media only screen and (max-width: 767px) {
+    .iphone {
+        margin-top: 10px;
+        width: 65%;
+    }
+}
+
+#press-imgs {
+  padding: 30px 0;
+  margin-left: 15px;
+}
+
+.press-brand {
+  padding-left: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    .press-brand {
+        width: 12%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .iphone {
+        width: 12%;
+    }
+}
+
+.section-header {
+  text-align: center;
+  color: #00e4b5;
+  font-size: 36px;
+  padding-bottom: 30px;
+}
+
+.feature {
+  margin: 10px 0;
+}
+
+.three-features {
+  padding: 30px 0;
+  background-color: #f7f8f9;
+}
+
+.feature-img {
+  margin-bottom: 15px;
+}
+
+.feature-text {
+  font-size: 16px;
+  width: 83%;
+  margin: 0;
+  padding-left: 0;
+}
+
+.featured-artist {
+  background-color: #eef1f2;
+  padding: 35px;
+  color: #567483;
+}
+
+.connect-btn {
+  color: #567483;
+}
+
+.connect-btn:hover {
+  text-decoration: none;
+  color: #353a3d;
+}
+
+.featured-artist-img {
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.featured-artist-text {
+  text-align: left;
+  padding-left: -15px;
+  margin-left: -15px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.music-section {
+  background-color: #f7f8f9;
+  padding: 35px 0;
+}
+
+.counter-block {
+  background-color: #eef1f2;
+  padding: 35px 0;
+  text-align: center;
+}
+
+/*.counter-section {
+  border-right: 1px solid grey;
+}*/
+
+.number {
+  color: #00e4b5;
+}
+
+.stat-title {
+  color: #567483;
+}
+
+@media only screen and (max-width: 767px) {
+    .counter-section {
+        /*border-right: none;*/
+    }
+    .number {
+      font-size: 22px;
+    }
+}
+
+#footer {
+  padding: 30px 0;
+}
+
+.footer-item:not(:first-child):before {
+    content: " | ";
+    padding: 0 5px;
+}
+
+.footer-item {
+  color: #567483;
+  text-align: right;
+}
+
+.footer-item:hover {
+  text-decoration: none;
+  color: #353a3d;
+}
+
+.footer-sm {
+  text-align: right;
+}
+
+.footer-sm .footer-sm-item {
+  margin-left: 20px;
+  text-align: right;
+  display: inline;
+  color: #567483;
+  text-align: right;
+}
+
+footer {
+  padding: 30px 0;
+  background-color: #f7f8f9;
+}
+
+
+
+
+/*iphone
+position: relative;
+margin-top: -235px;
+width: 20%;
+margin-right: 58px;*/
+
+/*change width of text*/
